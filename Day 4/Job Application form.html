@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body>
+    <form action="">
+        <h1>Job Application: Senior Web Developer</h1>
+        <p>Thank you for your interest in joining our team. Please fill out the application below.</p>
+
+        <hr>
+
+        <h2>Personal Information</h2>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" name="Full Name" id="name">
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="Email" id="email">
+        <br>
+        <br>
+
+        <label for="phone">Phone:</label><br>
+        <input type="tel" name="Phone" id="phone">
+        <br><br>
+
+        <label for="linkedin">LinkedIn Profile URL:</label><br>
+        <input type="url" name="LinkedIn" id="linkedin" placeholder="https://linkedin.com/your Profile">
+
+        <hr>
+
+        <h2>Personal Experience</h2>
+
+        <label for="file">Upload Your Resume(PDF or DOCX):</label>
+        <input type="file" name="Resume" id="file">
+        <br><br>
+
+        <label for="msg">Cover Letter:</label><br>
+        <textarea name="Letter" id="msg" rows="6" cols="30" placeholder="Tell us why you're a great fit for this role..."></textarea>
+        <br><br>
+
+        <label for="Experience">year of Professinoal Experience:</label><br>
+        <input type="number" name="Year of Experience" id="Experience" min="4" max="30">
+        <br><br>
+
+        <label for="sdate">Earliest Possition Star Date:</label><br>
+        <input type="date" name="Earliest job join date" id="sdate">
+
+        <hr>
+
+        <h2>Skills & Availability</h2>
+
+        <label>Primary Skillset(Choose One):</label><br>
+        <input type="radio" name="Skillset" id="frontend">
+        <label for="frontend">Frontend Developer</label>
+        <br>
+        <input type="radio" name="Skillset" id="Backend">
+        <label for="Backend">Backend Developer</label>
+        <br>
+        <input type="radio" name="Skillset" id="Full-Stack">
+        <label for="Full-Stack">Full-Stack Developer</label>
+        <br><br>
+
+        <label>Additional Skills(Select all that apply):</label><br>
+        <input type="checkbox" name="skills" id="react">
+        <label for="react">React</label>
+        <br>
+        <input type="checkbox" name="skills" id="node.js">
+        <label for="node.js">Node.Js</label>
+        <br>
+        <input type="checkbox" name="skills" id="dbms">
+        <label for="dbms">Database management</label>
+        <br>
+        <input type="checkbox" name="skills" id="cloud">
+        <label for="cloud">Cloud.DevOps</label>
+
+        <br><br>
+
+        <label for="type">Preferred Work Type:</label><br>
+        <select name="Work Type" id="type">
+            <option value="Full time">Full Time</option>
+            <option value="Part Time">Part Time</option>
+        </select>
+
+        <hr>
+
+        <h2>Final Confirmation</h2>
+
+        <input type="checkbox" name="working country" id="legally">
+        <label for="legally">I am legally authorized to work in this country.</label>
+        <br><br>
+
+        <label for="find it">How did you hear about us?</label><br>
+        <input type="text" name="Hear about" id="find it">
+        <br><br>
+
+        <button type="submit">Submit Application</button>
+        <button type="reset">Clear Form</button>
+
+    </form>
+</body>
+</html>
